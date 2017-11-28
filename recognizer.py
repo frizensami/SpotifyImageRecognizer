@@ -39,7 +39,7 @@ class SpotifyImageRecognizer():
         self.image = cv2.imread(image_path)
         self.template = cv2.imread(template_path)
     
-    def run(self):
+    def run(self, show_images=False):
         image = self.image
         template = self.template
         # Get basic dimensions of image
@@ -47,25 +47,19 @@ class SpotifyImageRecognizer():
         h, w, _ = image.shape
 
         is_large_spotify, top_left, bottom_right = is_image_large_spotify(image, template)
-        cv2.rectangle(image,top_left, bottom_right, 255, 2)
-        show_image_and_wait(image)
+        if show_images:
+            cv2.rectangle(image,top_left, bottom_right, 255, 2)
+            show_image_and_wait(image)
 
         # Binarize + Grayscale the image
         binarized = grayscale_and_binarize(image, 90, 255)
-        show_image_and_wait(binarized)
+        # show_image_and_wait(binarized)
 
         # Save our gray image
         save_image_to_file('bw.png', binarized)
 
         # Run Tesseract OCR 
         text = get_ocr_text(binarized)
-
-        # Get the set of bounding boxes for all our text
-        #boxes = get_ocr_bounding_boxes('bw.png')
-
-        # Overlay it onto our black and white image
-        #img = overlay_ocr_bounding_boxes('bw.png', boxes)
-        #show_image_and_wait(img)
 
         # Algorithm - find word Spotify (for non-spotify-large images)
         # First non wordless line before that is artist
@@ -75,8 +69,8 @@ class SpotifyImageRecognizer():
         lines = text.splitlines()
 
         # Print out all lines
-        for i, s in enumerate(lines):
-            print "Line: " + str(i) +  ": " + s
+        #for i, s in enumerate(lines):
+        #    print "Line: " + str(i) +  ": " + s
 
         # Get the location of the detected word "Spotify"
         if is_large_spotify:
@@ -84,36 +78,10 @@ class SpotifyImageRecognizer():
         else:
             spotify_location = index_containing_substring_case_insensitive(lines, "spotify")
 
-        # IF THIS IS THE TYPE OF IMAGE WE ARE GETTING (aka notification with spotify)
-        # Get a more specific bounding box (from spotify to right of screen)
-        #boxes_alnum = filter(lambda y: y[0].isalnum(), boxes)
-        #allwords = map(lambda x: x[0], boxes_alnum)
-        #joinedwords = str("".join(allwords))
 
-
-        # Find location of substring spotify
-        #idx = joinedwords.lower().find("spotify") 
-        #c = boxes_alnum[idx]
-        #(x1, y1) = (int(c[1]),h-int(c[2])) # Bottom left corner
-        #(x2, y2) = (int(c[3]),h-int(c[4])) # Top right corner
-        # This is the location of the Spotify word
-        #roi = img[(y2-5):(y1+5), (x1-5):(x2+5)] 
-        #roi = img[:y1+10, x1-10:]
-        #cv2.imshow("ROI", roi)
-        #cv2.waitKey(0)
-
-        print "Is large spotify? - " + str(is_large_spotify)
-        #print "Boxes_alnum: " + str(boxes_alnum)
-        #print "All joined words: " + str(joinedwords)
-        #print "Spotify detected index: " + str(idx)
-        #print "Boxes from idx: " + str(boxes_alnum[idx:])
-        print "Image H = " + str(h) + " W = " + str(w)
-        #print "Rectangle coordinates: " + str((int(c[1]),h-int(c[2]),int(c[3]),h-int(c[4])))
-        #print "(x1, y1): " + str((x1, y1))
-        #print "(x2, y2): " + str((x2, y2))
-
-
-        print "SPOTIFY LINE LOCATION INDEX: " + str(spotify_location)
+        #print "Is large spotify? - " + str(is_large_spotify)
+        #print "Image H = " + str(h) + " W = " + str(w)
+        #print "SPOTIFY LINE LOCATION INDEX: " + str(spotify_location)
 
         # Define alphanumberic set
         alnum = set(string.letters + string.digits)
@@ -135,11 +103,17 @@ class SpotifyImageRecognizer():
                     if is_large_spotify:
                         song_name = song_name[1:len(song_name)-1].strip()
                     break
-            
 
+        #print "DETECTED ARTIST: " + str(artist)
+        #print "DETECTED SONG NAME: " + str(song_name)
+        self.artist = artist
+        self.song_title = song_name
 
-        print "DETECTED ARTIST: " + str(artist)
-        print "DETECTED SONG NAME: " + str(song_name)
+    def get_artist(self):
+        return self.artist
+
+    def get_song_title(self):
+        return self.song_title
 
 
 
@@ -208,7 +182,7 @@ def is_image_large_spotify(image, template, confidence_required=0.8):
     # Apply template Matching and get confidence scores
     res = cv2.matchTemplate(image,template,cv2.TM_CCOEFF_NORMED)
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
-    print "CONFIDENCE VAL: " + str(max_val) 
+    print "Confidence val for image type detection: " + str(max_val) 
     top_left = max_loc
     bottom_right = (top_left[0] + template_w, top_left[1] + template_h)
 
@@ -217,23 +191,34 @@ def is_image_large_spotify(image, template, confidence_required=0.8):
 
 
 # ------ END UTILITY METHODS ------
+
+if __name__ == "__main__":
+    recog = SpotifyImageRecognizer()
+    recog.load_image("img/lockscreen.jpg")
+    recog.run()
+    print "Artist: " + recog.get_artist()
+    print "Song Title: " + recog.get_song_title()
+
+    recog.reset()
+    recog.load_image("img/spotify-large.jpg")
+    recog.run()
+    print "Artist: " + recog.get_artist()
+    print "Song Title: " + recog.get_song_title()
+
+    recog.reset()
+    recog.load_image("img/notif-clock.jpg")
+    recog.run()
+    print "Artist: " + recog.get_artist()
+    print "Song Title: " + recog.get_song_title()
+
+
+    recog.reset()
+    recog.load_image("img/notif-noclock.jpg")
+    recog.run()
+    print "Artist: " + recog.get_artist()
+    print "Song Title: " + recog.get_song_title()
     
-recog = SpotifyImageRecognizer()
-recog.load_image("img/lockscreen.jpg")
-recog.run()
-
-
-# Set of example images
-#image = read_image("img/lockscreen.jpg")
-# load the example image and convert it to grayscale
-#image = cv2.imread("img/spotify-large.jpg")
-#image = cv2.imread("img/notif-clock.jpg")
-#image = cv2.imread("img/notif-noclock.jpg")
-
-# Get pause / play template to match
-#template = cv2.imread('img/upside-down-carat.png')
-
-
+ 
 
 
 
