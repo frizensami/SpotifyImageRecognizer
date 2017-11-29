@@ -1,0 +1,584 @@
+---------Running test for: ('img/tests/1.jpg', 'On & Ong', 'Matt Kearney')---------------
+Confidence val for image type detection: 0.628692209721
+TEST CASE FAILURE FOR img/tests/1.jpg.
+Expected ARTIST: Matt Kearney - GOT ARTIST: J Mat Kearney G)
+TEST CASE FAILURE FOR img/tests/1.jpg
+Expected SONG TITLE: On & Ong - GOT SONG TITLE: n &
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/2.jpg', 'Drop the Game', 'Flume, Chet Faker')---------------
+Confidence val for image type detection: 0.615564405918
+Test success for: ('img/tests/2.jpg', 'Drop the Game', 'Flume, Chet Faker')
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/3.jpg', 'Patterns', 'Perlo')---------------
+Confidence val for image type detection: 0.729735076427
+Test success for: ('img/tests/3.jpg', 'Patterns', 'Perlo')
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/4.jpg', 'We Can Try', 'Between The Trees')---------------
+Confidence val for image type detection: 0.726421415806
+Test success for: ('img/tests/4.jpg', 'We Can Try', 'Between The Trees')
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/5.jpg', 'Endless Bummer', 'Weezer')---------------
+Confidence val for image type detection: 0.419150799513
+TEST CASE FAILURE FOR img/tests/5.jpg.
+Expected ARTIST: Weezer - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/5.jpg
+Expected SONG TITLE: Endless Bummer - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/6.jpg', "I Won't Give Up", 'Jason Mraz')---------------
+Confidence val for image type detection: 0.730786979198
+TEST CASE FAILURE FOR img/tests/6.jpg
+Expected SONG TITLE: I Won't Give Up - GOT SONG TITLE: Won't Give Up
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/7.jpg', 'Smile', 'The Royal Concept')---------------
+Confidence val for image type detection: 0.480039805174
+TEST CASE FAILURE FOR img/tests/7.jpg.
+Expected ARTIST: The Royal Concept - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/7.jpg
+Expected SONG TITLE: Smile - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/8.jpg', 'I Found', 'Amber Run')---------------
+Confidence val for image type detection: 0.542378425598
+TEST CASE FAILURE FOR img/tests/8.jpg.
+Expected ARTIST: Amber Run - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/8.jpg
+Expected SONG TITLE: I Found - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/9.jpg', 'Old Pine', 'Ben Howard')---------------
+Confidence val for image type detection: 0.555708050728
+TEST CASE FAILURE FOR img/tests/9.jpg.
+Expected ARTIST: Ben Howard - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/9.jpg
+Expected SONG TITLE: Old Pine - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/10.jpg', 'Endless Bummer', 'Weezer')---------------
+Confidence val for image type detection: 0.552867472172
+TEST CASE FAILURE FOR img/tests/10.jpg
+Expected SONG TITLE: Endless Bummer - GOT SONG TITLE: Endless Bumm
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/11.jpg', 'Lost In The Light', 'Bahamas')---------------
+Confidence val for image type detection: 0.518472254276
+TEST CASE FAILURE FOR img/tests/11.jpg.
+Expected ARTIST: Bahamas - GOT ARTIST: N Bahamas
+TEST CASE FAILURE FOR img/tests/11.jpg
+Expected SONG TITLE: Lost In The Light - GOT SONG TITLE: ost In The Lig
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/12.jpg', 'The Woods', 'Hollow Coves')---------------
+Confidence val for image type detection: 0.729167938232
+TEST CASE FAILURE FOR img/tests/12.jpg.
+Expected ARTIST: Hollow Coves - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/12.jpg
+Expected SONG TITLE: The Woods - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/13.jpg', 'Fool For Love', 'Lord Huron')---------------
+Confidence val for image type detection: 0.728785574436
+TEST CASE FAILURE FOR img/tests/13.jpg
+Expected SONG TITLE: Fool For Love - GOT SONG TITLE: Fool for Lo
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/14.jpg', 'Time Go', 'Caught A Ghost')---------------
+Confidence val for image type detection: 0.729617476463
+TEST CASE FAILURE FOR img/tests/14.jpg
+Expected SONG TITLE: Time Go - GOT SONG TITLE: Time
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/15.jpg', 'Misread', 'Kings of Convenience')---------------
+Confidence val for image type detection: 0.728512525558
+TEST CASE FAILURE FOR img/tests/15.jpg
+Expected SONG TITLE: Misread - GOT SONG TITLE: isread
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/16.jpg', 'Already Gone', 'Wild Rivers')---------------
+Confidence val for image type detection: 0.732612967491
+TEST CASE FAILURE FOR img/tests/16.jpg
+Expected SONG TITLE: Already Gone - GOT SONG TITLE: Already Go
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/17.jpg', 'Tear Up This Town - Orchestr', 'Keane')---------------
+Confidence val for image type detection: 0.644908249378
+TEST CASE FAILURE FOR img/tests/17.jpg
+Expected SONG TITLE: Tear Up This Town - Orchestr - GOT SONG TITLE: ear Up This Town - Orches
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/18.jpg', 'Seaside', 'Haux')---------------
+Confidence val for image type detection: 0.733070731163
+TEST CASE FAILURE FOR img/tests/18.jpg.
+Expected ARTIST: Haux - GOT ARTIST: Haux '
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/19.jpg', 'Where Is My Mind', 'Bandit')---------------
+Confidence val for image type detection: 0.730896174908
+TEST CASE FAILURE FOR img/tests/19.jpg.
+Expected ARTIST: Bandit - GOT ARTIST: Bandh '
+TEST CASE FAILURE FOR img/tests/19.jpg
+Expected SONG TITLE: Where Is My Mind - GOT SONG TITLE: here Is My Mind
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/20.jpg', 'Where You Can See The Ocean (O', 'Anime Kei')---------------
+Confidence val for image type detection: 0.732600152493
+TEST CASE FAILURE FOR img/tests/20.jpg
+Expected SONG TITLE: Where You Can See The Ocean (O - GOT SONG TITLE: 'Vhere You Can See the Ocean (C
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/21.jpg', 'A Town Where You Can See the', 'Anime Kei')---------------
+Confidence val for image type detection: 0.732600748539
+TEST CASE FAILURE FOR img/tests/21.jpg
+Expected SONG TITLE: A Town Where You Can See the - GOT SONG TITLE: A Town Where You Can See the (
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/22.jpg', 'Learning To Love Again', 'Mat Kearney')---------------
+Confidence val for image type detection: 0.541820645332
+TEST CASE FAILURE FOR img/tests/22.jpg.
+Expected ARTIST: Mat Kearney - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/22.jpg
+Expected SONG TITLE: Learning To Love Again - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/23.jpg', 'Stop And Stare', 'OneRepublic')---------------
+Confidence val for image type detection: 0.528251588345
+TEST CASE FAILURE FOR img/tests/23.jpg.
+Expected ARTIST: OneRepublic - GOT ARTIST: TEE OLD 2202 F8 EDITION 7:42 pm
+TEST CASE FAILURE FOR img/tests/23.jpg
+Expected SONG TITLE: Stop And Stare - GOT SONG TITLE: neRepubl
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/24.jpg', 'First Defeat', 'Noah Gundersen')---------------
+Confidence val for image type detection: 0.483921766281
+TEST CASE FAILURE FOR img/tests/24.jpg.
+Expected ARTIST: Noah Gundersen - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/24.jpg
+Expected SONG TITLE: First Defeat - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/25.jpg', 'Waves - Acoustic', 'Dean Lewis')---------------
+Confidence val for image type detection: 0.525689065456
+TEST CASE FAILURE FOR img/tests/25.jpg.
+Expected ARTIST: Dean Lewis - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/25.jpg
+Expected SONG TITLE: Waves - Acoustic - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/26.jpg', 'A Drop In The Ocean', 'Ron Pope')---------------
+Confidence val for image type detection: 0.555370807648
+TEST CASE FAILURE FOR img/tests/26.jpg.
+Expected ARTIST: Ron Pope - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/26.jpg
+Expected SONG TITLE: A Drop In The Ocean - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/27.jpg', 'As The Stars Fall', 'The Cinematic Orchestra')---------------
+Confidence val for image type detection: 0.483921766281
+TEST CASE FAILURE FOR img/tests/27.jpg.
+Expected ARTIST: The Cinematic Orchestra - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/27.jpg
+Expected SONG TITLE: As The Stars Fall - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/28.jpg', 'The Killing Moon', 'Echo & the Bunnymen')---------------
+Confidence val for image type detection: 0.726801753044
+TEST CASE FAILURE FOR img/tests/28.jpg.
+Expected ARTIST: Echo & the Bunnymen - GOT ARTIST: Echo & the Bunnymen '
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/29.jpg', 'All Fall Down', 'OneRepublic')---------------
+Confidence val for image type detection: 0.518700838089
+TEST CASE FAILURE FOR img/tests/29.jpg.
+Expected ARTIST: OneRepublic - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/29.jpg
+Expected SONG TITLE: All Fall Down - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/30.jpg', 'Exs and Ohs (Acoustic Version)', 'Kyla Fletcher')---------------
+Confidence val for image type detection: 0.555021345615
+TEST CASE FAILURE FOR img/tests/30.jpg.
+Expected ARTIST: Kyla Fletcher - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/30.jpg
+Expected SONG TITLE: Exs and Ohs (Acoustic Version) - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/31.jpg', "Where's My Love - Piano Solo", 'Syml')---------------
+Confidence val for image type detection: 0.543176174164
+TEST CASE FAILURE FOR img/tests/31.jpg.
+Expected ARTIST: Syml - GOT ARTIST: ,,H :7
+TEST CASE FAILURE FOR img/tests/31.jpg
+Expected SONG TITLE: Where's My Love - Piano Solo - GOT SONG TITLE: rsyadramthan@u.nus.e
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/32.jpg', 'Already Gone', 'Wild Rivers')---------------
+Confidence val for image type detection: 0.732611715794
+TEST CASE FAILURE FOR img/tests/32.jpg
+Expected SONG TITLE: Already Gone - GOT SONG TITLE: Already Go
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/33.jpg', 'Smile', 'The Royal Concept')---------------
+Confidence val for image type detection: 0.503332912922
+TEST CASE FAILURE FOR img/tests/33.jpg.
+Expected ARTIST: The Royal Concept - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/33.jpg
+Expected SONG TITLE: Smile - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/34.jpg', 'Big Fat Mouth', 'Arlie')---------------
+Confidence val for image type detection: 0.721200108528
+TEST CASE FAILURE FOR img/tests/34.jpg
+Expected SONG TITLE: Big Fat Mouth - GOT SONG TITLE: Big Fat Mou
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/35.jpg', 'Toothpaste Kisses', 'The Maccabees')---------------
+Confidence val for image type detection: 0.731052279472
+TEST CASE FAILURE FOR img/tests/35.jpg
+Expected SONG TITLE: Toothpaste Kisses - GOT SONG TITLE: Toothpaste Kiss
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/36.jpg', 'Girls And Boys In Love', 'The Rumble Strips')---------------
+Confidence val for image type detection: 0.73021286726
+TEST CASE FAILURE FOR img/tests/36.jpg.
+Expected ARTIST: The Rumble Strips - GOT ARTIST: The Rumble Strips '
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/37.jpg', 'Free Animal', 'Foreign Air')---------------
+Confidence val for image type detection: 0.495906740427
+TEST CASE FAILURE FOR img/tests/37.jpg.
+Expected ARTIST: Foreign Air - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/37.jpg
+Expected SONG TITLE: Free Animal - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/38.jpg', 'Born Again', 'Saint Motel')---------------
+Confidence val for image type detection: 0.5263453722
+TEST CASE FAILURE FOR img/tests/38.jpg.
+Expected ARTIST: Saint Motel - GOT ARTIST: GD Registration 2:28 pm
+TEST CASE FAILURE FOR img/tests/38.jpg
+Expected SONG TITLE: Born Again - GOT SONG TITLE: l .
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/39.jpg', 'Love Is Mystical', 'Cold War Kids')---------------
+Confidence val for image type detection: 0.521394431591
+TEST CASE FAILURE FOR img/tests/39.jpg.
+Expected ARTIST: Cold War Kids - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/39.jpg
+Expected SONG TITLE: Love Is Mystical - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/40.jpg', 'All The Rest Is Noise', 'Formation')---------------
+Confidence val for image type detection: 0.538259208202
+TEST CASE FAILURE FOR img/tests/40.jpg.
+Expected ARTIST: Formation - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/40.jpg
+Expected SONG TITLE: All The Rest Is Noise - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/41.jpg', 'Feel It Still', 'Portugal. The Man')---------------
+Confidence val for image type detection: 0.49590292573
+TEST CASE FAILURE FOR img/tests/41.jpg.
+Expected ARTIST: Portugal. The Man - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/41.jpg
+Expected SONG TITLE: Feel It Still - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/42.jpg', 'My Love', 'Frills')---------------
+Confidence val for image type detection: 0.521718800068
+TEST CASE FAILURE FOR img/tests/42.jpg.
+Expected ARTIST: Frills - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/42.jpg
+Expected SONG TITLE: My Love - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/43.jpg', 'Daft Pretty Boys', 'Bad Suns')---------------
+Confidence val for image type detection: 0.723583459854
+TEST CASE FAILURE FOR img/tests/43.jpg.
+Expected ARTIST: Bad Suns - GOT ARTIST: 0:06 -. 307
+TEST CASE FAILURE FOR img/tests/43.jpg
+Expected SONG TITLE: Daft Pretty Boys - GOT SONG TITLE: ad Suns
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/44.jpg', 'The Rest Of My Live', 'Less Than Jake')---------------
+Confidence val for image type detection: 0.73181271553
+TEST CASE FAILURE FOR img/tests/44.jpg
+Expected SONG TITLE: The Rest Of My Live - GOT SONG TITLE: The Rest Of My Li
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/45.jpg', 'Feel It Still', 'Portugal. The Man')---------------
+Confidence val for image type detection: 0.71870714426
+TEST CASE FAILURE FOR img/tests/45.jpg
+Expected SONG TITLE: Feel It Still - GOT SONG TITLE: Feel It Sti
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/46.jpg', 'Gone', 'Jack Johnson')---------------
+Confidence val for image type detection: 0.730729222298
+TEST CASE FAILURE FOR img/tests/46.jpg
+Expected SONG TITLE: Gone - GOT SONG TITLE: / Go
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/47.jpg', 'Love Will Set You Free', 'Kodaline')---------------
+Confidence val for image type detection: 0.560248196125
+TEST CASE FAILURE FOR img/tests/47.jpg.
+Expected ARTIST: Kodaline - GOT ARTIST: Audiojack is plugged in
+TEST CASE FAILURE FOR img/tests/47.jpg
+Expected SONG TITLE: Love Will Set You Free - GOT SONG TITLE: udio jack connect
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/48.jpg', 'Way Down We Go - Stripped', 'Kaleo')---------------
+Confidence val for image type detection: 0.730556964874
+Test success for: ('img/tests/48.jpg', 'Way Down We Go - Stripped', 'Kaleo')
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/49.jpg', "I'm the One - Acoustic", 'Sunset & Highland')---------------
+Confidence val for image type detection: 0.732865691185
+TEST CASE FAILURE FOR img/tests/49.jpg.
+Expected ARTIST: Sunset & Highland - GOT ARTIST: Sunset 8: Highland
+TEST CASE FAILURE FOR img/tests/49.jpg
+Expected SONG TITLE: I'm the One - Acoustic - GOT SONG TITLE: I'm the One - Acoust
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/50.jpg', 'Bad Habit', 'The Kooks')---------------
+Confidence val for image type detection: 0.73102003336
+TEST CASE FAILURE FOR img/tests/50.jpg.
+Expected ARTIST: The Kooks - GOT ARTIST: The Kooks '
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/51.jpg', 'Cache My Disease', 'Ben Lee')---------------
+Confidence val for image type detection: 0.725926458836
+TEST CASE FAILURE FOR img/tests/51.jpg
+Expected SONG TITLE: Cache My Disease - GOT SONG TITLE: atch My Disea
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/52.jpg', 'Believer - Live/Acoustic', 'Imagine Dragons')---------------
+Confidence val for image type detection: 0.527394771576
+TEST CASE FAILURE FOR img/tests/52.jpg.
+Expected ARTIST: Imagine Dragons - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/52.jpg
+Expected SONG TITLE: Believer - Live/Acoustic - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/53.jpg', 'Mama - Acoustic', 'Jonas Blue, William Singe')---------------
+Confidence val for image type detection: 0.524847209454
+TEST CASE FAILURE FOR img/tests/53.jpg.
+Expected ARTIST: Jonas Blue, William Singe - GOT ARTIST: DrAhmad Dinner
+TEST CASE FAILURE FOR img/tests/53.jpg
+Expected SONG TITLE: Mama - Acoustic - GOT SONG TITLE: onas Blue, William Sin
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/54.jpg', 'Right Where You Left Me', 'Perlo')---------------
+Confidence val for image type detection: 0.559594333172
+TEST CASE FAILURE FOR img/tests/54.jpg.
+Expected ARTIST: Perlo - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/54.jpg
+Expected SONG TITLE: Right Where You Left Me - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/55.jpg', 'Wild Ones', 'Bahari')---------------
+Confidence val for image type detection: 0.555250585079
+TEST CASE FAILURE FOR img/tests/55.jpg
+Expected SONG TITLE: Wild Ones - GOT SONG TITLE: ild On
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/56.jpg', 'K', 'Cigarettes After Sex')---------------
+Confidence val for image type detection: 0.483921766281
+TEST CASE FAILURE FOR img/tests/56.jpg.
+Expected ARTIST: Cigarettes After Sex - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/56.jpg
+Expected SONG TITLE: K - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/57.jpg', 'Heal', 'Tom Odell')---------------
+Confidence val for image type detection: 0.453842908144
+TEST CASE FAILURE FOR img/tests/57.jpg.
+Expected ARTIST: Tom Odell - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/57.jpg
+Expected SONG TITLE: Heal - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/58.jpg', 'Come Thou Fount', 'Kings Kaleidoscope')---------------
+Confidence val for image type detection: 0.571882605553
+TEST CASE FAILURE FOR img/tests/58.jpg.
+Expected ARTIST: Kings Kaleidoscope - GOT ARTIST: Instagram 3:24 pm
+TEST CASE FAILURE FOR img/tests/58.jpg
+Expected SONG TITLE: Come Thou Fount - GOT SONG TITLE: _H., 17.7 \
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/59.jpg', 'Hello My Old Heart', 'The Oh Helios')---------------
+Confidence val for image type detection: 0.555830419064
+TEST CASE FAILURE FOR img/tests/59.jpg.
+Expected ARTIST: The Oh Helios - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/59.jpg
+Expected SONG TITLE: Hello My Old Heart - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/60.jpg', 'Better Together', 'Jack Johnson')---------------
+Confidence val for image type detection: 0.533005595207
+TEST CASE FAILURE FOR img/tests/60.jpg.
+Expected ARTIST: Jack Johnson - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/60.jpg
+Expected SONG TITLE: Better Together - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/61.jpg', 'Without You Here', 'The Goo Goo Dolls')---------------
+Confidence val for image type detection: 0.560176968575
+TEST CASE FAILURE FOR img/tests/61.jpg.
+Expected ARTIST: The Goo Goo Dolls - GOT ARTIST: KOOZA
+TEST CASE FAILURE FOR img/tests/61.jpg
+Expected SONG TITLE: Without You Here - GOT SONG TITLE: The Goo Goo Dol
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/62.jpg', 'Feel It Still', 'Portugal. The Man')---------------
+Confidence val for image type detection: 0.71870714426
+TEST CASE FAILURE FOR img/tests/62.jpg.
+Expected ARTIST: Portugal. The Man - GOT ARTIST: II'
+TEST CASE FAILURE FOR img/tests/62.jpg
+Expected SONG TITLE: Feel It Still - GOT SONG TITLE: l Devices Availab
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/63.jpg', "I'm the One - Acoustic", 'Sunset & Highland')---------------
+Confidence val for image type detection: 0.555616378784
+TEST CASE FAILURE FOR img/tests/63.jpg.
+Expected ARTIST: Sunset & Highland - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/63.jpg
+Expected SONG TITLE: I'm the One - Acoustic - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/64.jpg', 'Mama - Acoustic', 'Jonas Blue, William Singe')---------------
+Confidence val for image type detection: 0.725433528423
+TEST CASE FAILURE FOR img/tests/64.jpg
+Expected SONG TITLE: Mama - Acoustic - GOT SONG TITLE: ama - Acoustic
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/65.jpg', "Where's My Love - Piano Solo", 'Syml')---------------
+Confidence val for image type detection: 0.543176472187
+TEST CASE FAILURE FOR img/tests/65.jpg.
+Expected ARTIST: Syml - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/65.jpg
+Expected SONG TITLE: Where's My Love - Piano Solo - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/66.jpg', 'Needle and a Knife', 'Tennis')---------------
+Confidence val for image type detection: 0.433745861053
+TEST CASE FAILURE FOR img/tests/66.jpg.
+Expected ARTIST: Tennis - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/66.jpg
+Expected SONG TITLE: Needle and a Knife - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/67.jpg', 'Wait Up For YOu', 'The Belle Game')---------------
+Confidence val for image type detection: 0.731317400932
+TEST CASE FAILURE FOR img/tests/67.jpg
+Expected SONG TITLE: Wait Up For YOu - GOT SONG TITLE: Wait Up For Y
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/68.jpg', 'Apple Pie Bed', 'Lawrence Arabia')---------------
+Confidence val for image type detection: 0.731355309486
+Test success for: ('img/tests/68.jpg', 'Apple Pie Bed', 'Lawrence Arabia')
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/69.jpg', 'Go', 'Pleasure Beach')---------------
+Confidence val for image type detection: 0.540845513344
+TEST CASE FAILURE FOR img/tests/69.jpg.
+Expected ARTIST: Pleasure Beach - GOT ARTIST: +I<||>I
+TEST CASE FAILURE FOR img/tests/69.jpg
+Expected SONG TITLE: Go - GOT SONG TITLE: 7 Pleasure Bea
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/70.jpg', 'Hang Your Heart', 'Tokyo Police Club')---------------
+Confidence val for image type detection: 0.560247898102
+TEST CASE FAILURE FOR img/tests/70.jpg.
+Expected ARTIST: Tokyo Police Club - GOT ARTIST: .3 Tokyo Police Club
+TEST CASE FAILURE FOR img/tests/70.jpg
+Expected SONG TITLE: Hang Your Heart - GOT SONG TITLE: ang Your Hea
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/71.jpg', 'City Club', 'The Growlers')---------------
+Confidence val for image type detection: 0.571168065071
+TEST CASE FAILURE FOR img/tests/71.jpg.
+Expected ARTIST: The Growlers - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/71.jpg
+Expected SONG TITLE: City Club - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/72.jpg', 'Brazil', 'Declan McKenna')---------------
+Confidence val for image type detection: 0.410563915968
+TEST CASE FAILURE FOR img/tests/72.jpg.
+Expected ARTIST: Declan McKenna - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/72.jpg
+Expected SONG TITLE: Brazil - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/73.jpg', 'The Beautiful Game', 'RAC, St. Lucia')---------------
+Confidence val for image type detection: 0.483921766281
+TEST CASE FAILURE FOR img/tests/73.jpg.
+Expected ARTIST: RAC, St. Lucia - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/73.jpg
+Expected SONG TITLE: The Beautiful Game - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/74.jpg', 'No Coffee', 'Amber Coffman')---------------
+Confidence val for image type detection: 0.570695579052
+TEST CASE FAILURE FOR img/tests/74.jpg.
+Expected ARTIST: Amber Coffman - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/74.jpg
+Expected SONG TITLE: No Coffee - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/75.jpg', 'Guru', 'Coast Modern')---------------
+Confidence val for image type detection: 0.503332912922
+TEST CASE FAILURE FOR img/tests/75.jpg.
+Expected ARTIST: Coast Modern - GOT ARTIST: BN1 1 0] TA
+TEST CASE FAILURE FOR img/tests/75.jpg
+Expected SONG TITLE: Guru - GOT SONG TITLE: D
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/76.jpg', 'Wishing Girl', 'Lola Marsh')---------------
+Confidence val for image type detection: 0.565605998039
+TEST CASE FAILURE FOR img/tests/76.jpg.
+Expected ARTIST: Lola Marsh - GOT ARTIST: BME+ @Outram Park
+TEST CASE FAILURE FOR img/tests/76.jpg
+Expected SONG TITLE: Wishing Girl - GOT SONG TITLE: messages from 2 cha
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/77.jpg', 'Love Is Mystical', 'Cold War Kids')---------------
+Confidence val for image type detection: 0.520823717117
+TEST CASE FAILURE FOR img/tests/77.jpg.
+Expected ARTIST: Cold War Kids - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/77.jpg
+Expected SONG TITLE: Love Is Mystical - GOT SONG TITLE: None
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/78.jpg', 'Love Is Mystical', 'Cold War Kids')---------------
+Confidence val for image type detection: 0.732974231243
+TEST CASE FAILURE FOR img/tests/78.jpg.
+Expected ARTIST: Cold War Kids - GOT ARTIST: 0:02 o 3:34
+TEST CASE FAILURE FOR img/tests/78.jpg
+Expected SONG TITLE: Love Is Mystical - GOT SONG TITLE: old War Kids
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/79.jpg', 'Hold Me', 'Vistas')---------------
+Confidence val for image type detection: 0.538483500481
+TEST CASE FAILURE FOR img/tests/79.jpg.
+Expected ARTIST: Vistas - GOT ARTIST: 'm: x? \-
+TEST CASE FAILURE FOR img/tests/79.jpg
+Expected SONG TITLE: Hold Me - GOT SONG TITLE: 6 Sep, 6:3010:00
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/80.jpg', 'monsoon', 'Hippo Campus')---------------
+Confidence val for image type detection: 0.483921766281
+Test success for: ('img/tests/80.jpg', 'monsoon', 'Hippo Campus')
+-------------------------------------------------------------
+
+---------Running test for: ('img/tests/81.jpg', 'Brazil', 'Declan McKenna')---------------
+Confidence val for image type detection: 0.503332912922
+TEST CASE FAILURE FOR img/tests/81.jpg.
+Expected ARTIST: Declan McKenna - GOT ARTIST: None
+TEST CASE FAILURE FOR img/tests/81.jpg
+Expected SONG TITLE: Brazil - GOT SONG TITLE: None
+-------------------------------------------------------------
+Total Failures: 75/81
